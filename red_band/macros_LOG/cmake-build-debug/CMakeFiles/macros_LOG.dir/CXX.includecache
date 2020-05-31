@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/macros_LOG/main.cpp
+test_runner.h
+D:/Coding/red_band/macros_LOG/test_runner.h
+sstream
+-
+string
+-
+
+D:/Coding/red_band/macros_LOG/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

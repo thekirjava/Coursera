@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/priority_collection/main.cpp
+test_runner.h
+D:/Coding/red_band/priority_collection/test_runner.h
+algorithm
+-
+iostream
+-
+iterator
+-
+memory
+-
+set
+-
+utility
+-
+vector
+-
+tuple
+-
+
+D:/Coding/red_band/priority_collection/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

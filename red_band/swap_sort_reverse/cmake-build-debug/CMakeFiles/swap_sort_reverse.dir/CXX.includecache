@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/swap_sort_reverse/main.cpp
+test_runner.h
+D:/Coding/red_band/swap_sort_reverse/test_runner.h
+algorithm
+-
+numeric
+-
+vector
+-
+string
+-
+stack
+-
+
+D:/Coding/red_band/swap_sort_reverse/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

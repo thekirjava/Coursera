@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/split_into_senteces/main.cpp
+test_runner.h
+D:/Coding/red_band/split_into_senteces/test_runner.h
+vector
+-
+
+D:/Coding/red_band/split_into_senteces/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

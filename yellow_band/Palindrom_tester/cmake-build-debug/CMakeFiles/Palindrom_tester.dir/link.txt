@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Palindrom_tester.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Palindrom_tester.dir/objects.a @CMakeFiles\Palindrom_tester.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Palindrom_tester.dir/objects.a -Wl,--no-whole-archive  -o Palindrom_tester.exe -Wl,--out-implib,libPalindrom_tester.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Palindrom_tester.dir\linklibs.rsp

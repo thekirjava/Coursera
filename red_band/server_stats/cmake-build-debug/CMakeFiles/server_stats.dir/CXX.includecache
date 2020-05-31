@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/server_stats/http_request.h
+string_view
+-
+
+D:/Coding/red_band/server_stats/stats.cpp
+stats.h
+D:/Coding/red_band/server_stats/stats.h
+
+D:/Coding/red_band/server_stats/stats.h
+http_request.h
+D:/Coding/red_band/server_stats/http_request.h
+string_view
+-
+map
+-
+

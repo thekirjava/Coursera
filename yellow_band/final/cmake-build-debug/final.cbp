@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="final"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Coding/yellow_band/final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="final">
+				<Option output="D:/Coding/yellow_band/final/cmake-build-debug/final.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/yellow_band/final/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 final"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="final/fast">
+				<Option output="D:/Coding/yellow_band/final/cmake-build-debug/final.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/yellow_band/final/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 final/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Coding/yellow_band/final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Coding/yellow_band/final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Coding/yellow_band/final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Coding/yellow_band/final/condition_parser.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/condition_parser.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/condition_parser_test.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/database.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/database.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/date.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/date.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/main.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/node.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/node.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/test_runner.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/token.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/token.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="D:/Coding/yellow_band/final/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+D:/Coding/red_band/sportmen/cmake-build-debug/CMakeFiles/sportmen.dir
+D:/Coding/red_band/sportmen/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/red_band/sportmen/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:/Coding/red_band/ebook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Coding/red_band/ebook/cmake-build-debug/CMakeFiles/ebook.dir
+D:/Coding/red_band/ebook/cmake-build-debug/CMakeFiles/edit_cache.dir

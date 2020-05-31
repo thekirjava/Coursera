@@ -1,0 +1,3 @@
+D:/Coding/red_band/uniq/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/red_band/uniq/cmake-build-debug/CMakeFiles/uniq.dir
+D:/Coding/red_band/uniq/cmake-build-debug/CMakeFiles/rebuild_cache.dir

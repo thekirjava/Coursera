@@ -1,0 +1,3 @@
+D:/Coding/red_band/group_string/cmake-build-debug/CMakeFiles/group_string.dir
+D:/Coding/red_band/group_string/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/red_band/group_string/cmake-build-debug/CMakeFiles/rebuild_cache.dir

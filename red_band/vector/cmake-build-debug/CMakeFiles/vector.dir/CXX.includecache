@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/vector/main.cpp
+simple_vector.h
+D:/Coding/red_band/vector/simple_vector.h
+test_runner.h
+D:/Coding/red_band/vector/test_runner.h
+algorithm
+-
+iostream
+-
+vector
+-
+string
+-
+
+D:/Coding/red_band/vector/simple_vector.h
+cstdlib
+-
+algorithm
+-
+
+D:/Coding/red_band/vector/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

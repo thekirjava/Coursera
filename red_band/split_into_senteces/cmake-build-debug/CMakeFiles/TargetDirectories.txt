@@ -1,0 +1,3 @@
+D:/Coding/red_band/split_into_senteces/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Coding/red_band/split_into_senteces/cmake-build-debug/CMakeFiles/split_into_senteces.dir
+D:/Coding/red_band/split_into_senteces/cmake-build-debug/CMakeFiles/edit_cache.dir

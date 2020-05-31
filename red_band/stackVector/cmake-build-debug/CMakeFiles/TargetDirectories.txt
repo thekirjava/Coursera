@@ -1,0 +1,3 @@
+D:/Coding/red_band/stackVector/cmake-build-debug/CMakeFiles/stackVector.dir
+D:/Coding/red_band/stackVector/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/red_band/stackVector/cmake-build-debug/CMakeFiles/rebuild_cache.dir

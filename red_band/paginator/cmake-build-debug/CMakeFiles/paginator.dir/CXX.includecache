@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/red_band/paginator/main.cpp
+test_runner.h
+D:/Coding/red_band/paginator/test_runner.h
+numeric
+-
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+
+D:/Coding/red_band/paginator/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

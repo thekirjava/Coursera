@@ -1,0 +1,3 @@
+D:/Coding/yellow_band/Notifier/cmake-build-debug/CMakeFiles/Notifier.dir
+D:/Coding/yellow_band/Notifier/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/yellow_band/Notifier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
