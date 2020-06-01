@@ -20,22 +20,11 @@ struct Stats {
 
 Stats ExploreLine(const set<string> &key_words, const string &line) {
     string buf;
+    stringstream tokenizer(line);
     Stats ans;
-    for (auto c:line) {
-        if ((c == ' ') || (c == '\n')) {
-            for (const auto &key:key_words) {
-                if (buf == key) {
-                    ans.word_frequences[key]++;
-                }
-            }
-            buf = "";
-            continue;
-        }
-        buf += c;
-    }
-    for (const auto &key:key_words) {
-        if (buf == key) {
-            ans.word_frequences[key]++;
+    while (tokenizer >> buf) {
+        if (key_words.find(buf) != end(key_words)) {
+            ans.word_frequences[buf]++;
         }
     }
     return ans;

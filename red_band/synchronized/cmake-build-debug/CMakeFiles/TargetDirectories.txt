@@ -1,0 +1,3 @@
+D:/Coding/Coursera/red_band/synchronized/cmake-build-debug/CMakeFiles/synchronized.dir
+D:/Coding/Coursera/red_band/synchronized/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/red_band/synchronized/cmake-build-debug/CMakeFiles/rebuild_cache.dir

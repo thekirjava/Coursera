@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Coding/red_band/keywords/main.cpp
+D:/Coding/Coursera/red_band/keywords/main.cpp
 test_runner.h
-D:/Coding/red_band/keywords/test_runner.h
+D:/Coding/Coursera/red_band/keywords/test_runner.h
 profile.h
-D:/Coding/red_band/keywords/profile.h
+D:/Coding/Coursera/red_band/keywords/profile.h
 map
 -
 string
@@ -20,7 +20,7 @@ future
 functional
 -
 
-D:/Coding/red_band/keywords/profile.h
+D:/Coding/Coursera/red_band/keywords/profile.h
 chrono
 -
 iostream
@@ -28,7 +28,7 @@ iostream
 string
 -
 
-D:/Coding/red_band/keywords/test_runner.h
+D:/Coding/Coursera/red_band/keywords/test_runner.h
 sstream
 -
 stdexcept
