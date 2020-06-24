@@ -7,26 +7,56 @@
 #include <string>
 #include <random>
 #include <future>
+#include <mutex>
+#include <thread>
+#include <utility>
+
 using namespace std;
 
-template <typename K, typename V>
+template<typename K, typename V>
 class ConcurrentMap {
 public:
     static_assert(is_integral_v<K>, "ConcurrentMap supports only integer keys");
 
     struct Access {
-        V& ref_to_value;
+        V &ref_to_value;
+        lock_guard<mutex> guard;
     };
 
-    explicit ConcurrentMap(size_t bucket_count);
+    explicit ConcurrentMap(size_t bucket_count) : bucket_count(bucket_count) {
+        mutexes = vector<mutex>(bucket_count);
+        data = vector<map<K, V> >(bucket_count);
+    }
 
-    Access operator[](const K& key);
+    Access operator[](const K &key) {
+        int idx = (key < 0 ? -key : key) % bucket_count;
+        {
+            lock_guard<mutex> g(mutexes[idx]);
+            if (data[idx].count(key) == 0) {
+                data[idx][key] = V();
+            }
+        }
+        return {data[idx][key], lock_guard(mutexes[idx])};
+    }
 
-    map<K, V> BuildOrdinaryMap();
+    map<K, V> BuildOrdinaryMap() {
+        map<K, V> ans;
+        for (const auto& m:data) {
+            for (const auto &p:m) {
+                ans[p.first] = p.second;
+            }
+        }
+        return ans;
+    }
+
+private:
+    vector<map<K, V>> data;
+    vector<mutex> mutexes;
+    size_t bucket_count;
 };
 
 void RunConcurrentUpdates(
-        ConcurrentMap<int, int>& cm, size_t thread_count, int key_count
+        ConcurrentMap<int, int> &cm, size_t thread_count, int key_count
 ) {
     auto kernel = [&cm, key_count](int seed) {
         vector<int> updates(key_count);
@@ -55,7 +85,7 @@ void TestConcurrentUpdate() {
 
     const auto result = cm.BuildOrdinaryMap();
     ASSERT_EQUAL(result.size(), key_count);
-    for (auto& [k, v] : result) {
+    for (auto&[k, v] : result) {
         AssertEqual(v, 6, "Key = " + to_string(k));
     }
 }
@@ -86,7 +116,7 @@ void TestReadAndWrite() {
 
     for (auto f : {&r1, &r2}) {
         auto result = f->get();
-        ASSERT(all_of(result.begin(), result.end(), [](const string& s) {
+        ASSERT(all_of(result.begin(), result.end(), [](const string &s) {
             return s.empty() || s == "a" || s == "aa";
         }));
     }
