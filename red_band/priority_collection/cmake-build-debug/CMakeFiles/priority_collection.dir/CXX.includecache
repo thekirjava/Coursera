@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/Coding/red_band/priority_collection/main.cpp
+D:/Coding/Coursera/red_band/priority_collection/main.cpp
 test_runner.h
-D:/Coding/red_band/priority_collection/test_runner.h
+D:/Coding/Coursera/red_band/priority_collection/test_runner.h
 algorithm
 -
 iostream
@@ -19,14 +19,14 @@ memory
 -
 set
 -
+map
+-
 utility
 -
 vector
 -
-tuple
--
 
-D:/Coding/red_band/priority_collection/test_runner.h
+D:/Coding/Coursera/red_band/priority_collection/test_runner.h
 sstream
 -
 stdexcept

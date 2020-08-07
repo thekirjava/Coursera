@@ -1,4 +1,4 @@
-# Install script for directory: D:/Coding/red_band/priority_collection
+# Install script for directory: D:/Coding/Coursera/red_band/priority_collection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Coding/red_band/priority_collection/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Coding/Coursera/red_band/priority_collection/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

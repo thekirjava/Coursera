@@ -4,55 +4,70 @@
 #include <iterator>
 #include <memory>
 #include <set>
+#include <map>
 #include <utility>
 #include <vector>
 
 using namespace std;
 
-template <typename T>
+template<typename T>
 class PriorityCollection {
 public:
-    using Id = /* тип, используемый для идентификаторов */;
+    using Id = const T*;
+    using Info = pair<int, int>;
 
     // Добавить объект с нулевым приоритетом
     // с помощью перемещения и вернуть его идентификатор
-    Id Add(T object);
+    Id Add(T object) {
+    }
 
     // Добавить все элементы диапазона [range_begin, range_end)
     // с помощью перемещения, записав выданные им идентификаторы
     // в диапазон [ids_begin, ...)
-    template <typename ObjInputIt, typename IdOutputIt>
+    template<typename ObjInputIt, typename IdOutputIt>
     void Add(ObjInputIt range_begin, ObjInputIt range_end,
-             IdOutputIt ids_begin);
+             IdOutputIt ids_begin) {
+    }
 
     // Определить, принадлежит ли идентификатор какому-либо
     // хранящемуся в контейнере объекту
-    bool IsValid(Id id) const;
+    bool IsValid(Id id) const {
+    }
 
     // Получить объект по идентификатору
-    const T& Get(Id id) const;
+    const T &Get(Id id) const {
+    }
 
     // Увеличить приоритет объекта на 1
-    void Promote(Id id);
+    void Promote(Id id) {
+    }
 
     // Получить объект с максимальным приоритетом и его приоритет
-    pair<const T&, int> GetMax() const;
+    pair<const T &, int> GetMax() const {
+    }
 
     // Аналогично GetMax, но удаляет элемент из контейнера
-    pair<T, int> PopMax();
+    pair<T, int> PopMax() {
+
+    }
 
 private:
-    // Приватные поля и методы
+    map<T, int> data;
+    set<pair<Info, Id> > priority;
+    int time = 0;
 };
 
 
 class StringNonCopyable : public string {
 public:
     using string::string;  // Позволяет использовать конструкторы строки
-    StringNonCopyable(const StringNonCopyable&) = delete;
-    StringNonCopyable(StringNonCopyable&&) = default;
-    StringNonCopyable& operator=(const StringNonCopyable&) = delete;
-    StringNonCopyable& operator=(StringNonCopyable&&) = default;
+    StringNonCopyable(const StringNonCopyable &) = delete;
+
+    StringNonCopyable(StringNonCopyable &&) = default;
+
+    StringNonCopyable &operator=(const StringNonCopyable &) = delete;
+
+    StringNonCopyable &operator=(StringNonCopyable &&) = default;
 };
 
 void TestNoCopy() {
