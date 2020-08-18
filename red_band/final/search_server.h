@@ -8,7 +8,7 @@
 #include <map>
 #include <string>
 #include <mutex>
-#include <future
+#include <future>
 #include <deque>
 
 using namespace std;
@@ -33,8 +33,10 @@ public:
     explicit SearchServer(istream& document_input);
     void UpdateDocumentBase(istream& document_input);
     void AddQueriesStream(istream& query_input, ostream& search_results_output);
+    ~SearchServer();
 
 private:
     InvertedIndex index;
-    mu
+    std::mutex index_mutex;
+    std::vector<std::future<void> > futures;
 };
