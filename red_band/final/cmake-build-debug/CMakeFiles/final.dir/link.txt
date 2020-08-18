@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\final.dir/objects.a
+C:\dev\mingw\mingw64\bin\ar.exe cr CMakeFiles\final.dir/objects.a @CMakeFiles\final.dir\objects1.rsp
+C:\dev\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\final.dir/objects.a -Wl,--no-whole-archive  -o final.exe -Wl,--out-implib,libfinal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\final.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-D:/Coding/Coursera/red_band/search_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Coding/Coursera/red_band/search_server/cmake-build-debug/CMakeFiles/search_server.dir
-D:/Coding/Coursera/red_band/search_server/cmake-build-debug/CMakeFiles/edit_cache.dir

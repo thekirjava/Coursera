@@ -13,12 +13,14 @@ using namespace std;
 template<typename T>
 class PriorityCollection {
 public:
-    using Id = const T*;
-    using Info = pair<int, int>;
+    using Id = int;
 
     // Добавить объект с нулевым приоритетом
     // с помощью перемещения и вернуть его идентификатор
     Id Add(T object) {
+        data.push_back({move(object), 0});
+        ids[0].insert(data.size() - 1);
+        return data.size() - 1;
     }
 
     // Добавить все элементы диапазона [range_begin, range_end)
@@ -27,34 +29,59 @@ public:
     template<typename ObjInputIt, typename IdOutputIt>
     void Add(ObjInputIt range_begin, ObjInputIt range_end,
              IdOutputIt ids_begin) {
+        for (auto i = range_begin; i != range_end; i++, ids_begin++) {
+            *ids_begin = Add(move(*i));
+        }
     }
 
     // Определить, принадлежит ли идентификатор какому-либо
     // хранящемуся в контейнере объекту
     bool IsValid(Id id) const {
+        return data[id].priority != -1;
     }
 
     // Получить объект по идентификатору
     const T &Get(Id id) const {
+        return data[id].value;
     }
 
     // Увеличить приоритет объекта на 1
     void Promote(Id id) {
+        int p = data[id].priority++;
+        auto find_priority = ids.find(p);
+        if (find_priority != ids.end()) {
+            find_priority->second.erase(id);
+        }
+        ids[p + 1].insert(id);
+        if (find_priority->second.empty()) {
+            ids.erase(find_priority);
+        }
     }
 
     // Получить объект с максимальным приоритетом и его приоритет
     pair<const T &, int> GetMax() const {
+        return {data[*(ids.rbegin()->second.rbegin())].value, ids.rbegin()->first};
     }
 
     // Аналогично GetMax, но удаляет элемент из контейнера
     pair<T, int> PopMax() {
-
+        auto last = ids.rbegin()->second.rbegin();
+        auto result = make_pair(move(data[*last].value), ids.rbegin()->first);
+        data[*last].priority = -1;
+        ids.rbegin()->second.erase(prev(ids.rbegin()->second.end()));
+        if (prev(ids.end())->second.empty()) {
+            ids.erase(prev(ids.end()));
+        }
+        return result;
     }
 
 private:
-    map<T, int> data;
-    set<pair<Info, Id> > priority;
-    int time = 0;
+    struct Node {
+        T value;
+        int priority;
+    };
+    map<int, set<Id> > ids;
+    vector<Node> data;
 };
 
 

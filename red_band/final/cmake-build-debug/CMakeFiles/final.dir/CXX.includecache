@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/red_band/final/iterator_range.h
+algorithm
+-
+
+D:/Coding/Coursera/red_band/final/search_server.cpp
+search_server.h
+D:/Coding/Coursera/red_band/final/search_server.h
+iterator_range.h
+D:/Coding/Coursera/red_band/final/iterator_range.h
+algorithm
+-
+iterator
+-
+sstream
+-
+iostream
+-
+
+D:/Coding/Coursera/red_band/final/search_server.h
+istream
+-
+ostream
+-
+set
+-
+list
+-
+vector
+-
+map
+-
+string
+-
+

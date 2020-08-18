@@ -6,10 +6,10 @@
 #include <vector>
 #include <string>
 #include <random>
-#include <future>
 #include <mutex>
-#include <thread>
-#include <utility>
+#include <future>
+#include <map>
+#include <deque>
 
 using namespace std;
 
@@ -19,40 +19,37 @@ public:
     static_assert(is_integral_v<K>, "ConcurrentMap supports only integer keys");
 
     struct Access {
+        lock_guard<mutex> lockGuard;
         V &ref_to_value;
-        lock_guard<mutex> guard;
     };
 
-    explicit ConcurrentMap(size_t bucket_count) : bucket_count(bucket_count) {
-        mutexes = vector<mutex>(bucket_count);
-        data = vector<map<K, V> >(bucket_count);
+    explicit ConcurrentMap(size_t bucket_count) : BUCKET_COUNT(bucket_count) {
+        buckets.resize(BUCKET_COUNT);
     }
 
     Access operator[](const K &key) {
-        int idx = (key < 0 ? -key : key) % bucket_count;
-        {
-            lock_guard<mutex> g(mutexes[idx]);
-            if (data[idx].count(key) == 0) {
-                data[idx][key] = V();
-            }
-        }
-        return {data[idx][key], lock_guard(mutexes[idx])};
+        size_t bucket_key = key % BUCKET_COUNT;
+        auto &current_bucket = buckets[bucket_key];
+        return Access{ lock_guard(current_bucket.bucket_mutex), current_bucket.bucket_map[key]};
     }
 
     map<K, V> BuildOrdinaryMap() {
-        map<K, V> ans;
-        for (const auto& m:data) {
-            for (const auto &p:m) {
-                ans[p.first] = p.second;
+        map<K, V> result;
+        for (auto &b:buckets) {
+            for (const auto&[key, value]: b.bucket_map) {
+                result[key] = operator[](key).ref_to_value;
             }
         }
-        return ans;
+        return result;
     }
 
 private:
-    vector<map<K, V>> data;
-    vector<mutex> mutexes;
-    size_t bucket_count;
+    const size_t BUCKET_COUNT;
+    struct Bucket{
+        map<K, V> bucket_map;
+        std::mutex bucket_mutex;
+    };
+    deque<Bucket> buckets;
 };
 
 void RunConcurrentUpdates(
@@ -70,7 +67,8 @@ void RunConcurrentUpdates(
         }
     };
 
-    vector<future<void>> futures;
+    vector<future < void>>
+    futures;
     for (size_t i = 0; i < thread_count; ++i) {
         futures.push_back(async(kernel, i));
     }
