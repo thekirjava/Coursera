@@ -7,3 +7,6 @@ print(dataSet['Pclass'].value_counts(normalize=True))
 print(dataSet['Age'].mean())
 print(dataSet['Age'].median())
 print(dataSet['SibSp'].corr(dataSet['Parch'], method='pearson'))
+
+
+
