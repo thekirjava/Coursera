@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_2/4_refactoring/cmake-build-debug/CMakeFiles/4_refactoring.dir
+D:/Coding/Coursera/brown_band/Week_2/4_refactoring/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_2/4_refactoring/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/brown_band/Week_1/3_point_hash/main.cpp
+test_runner.h
+D:/Coding/Coursera/brown_band/Week_1/3_point_hash/test_runner.h
+limits
+-
+random
+-
+unordered_set
+-
+
+D:/Coding/Coursera/brown_band/Week_1/3_point_hash/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

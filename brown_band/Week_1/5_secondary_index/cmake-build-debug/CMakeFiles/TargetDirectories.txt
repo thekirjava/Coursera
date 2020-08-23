@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_1/5_secondary_index/cmake-build-debug/CMakeFiles/5_secondary_index.dir
+D:/Coding/Coursera/brown_band/Week_1/5_secondary_index/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_1/5_secondary_index/cmake-build-debug/CMakeFiles/rebuild_cache.dir

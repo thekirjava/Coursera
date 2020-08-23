@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/brown_band/Week_1/5_secondary_index/main.cpp
+test_runner.h
+D:/Coding/Coursera/brown_band/Week_1/5_secondary_index/test_runner.h
+iostream
+-
+map
+-
+string
+-
+unordered_map
+-
+
+D:/Coding/Coursera/brown_band/Week_1/5_secondary_index/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
