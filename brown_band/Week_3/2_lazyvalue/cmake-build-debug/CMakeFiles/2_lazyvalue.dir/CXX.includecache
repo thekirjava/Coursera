@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/brown_band/Week_3/2_lazyvalue/main.cpp
+test_runner.h
+D:/Coding/Coursera/brown_band/Week_3/2_lazyvalue/test_runner.h
+functional
+-
+string
+-
+
+D:/Coding/Coursera/brown_band/Week_3/2_lazyvalue/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+

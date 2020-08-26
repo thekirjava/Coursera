@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_3/2_lazyvalue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Coding/Coursera/brown_band/Week_3/2_lazyvalue/cmake-build-debug/CMakeFiles/2_lazyvalue.dir
+D:/Coding/Coursera/brown_band/Week_3/2_lazyvalue/cmake-build-debug/CMakeFiles/edit_cache.dir
