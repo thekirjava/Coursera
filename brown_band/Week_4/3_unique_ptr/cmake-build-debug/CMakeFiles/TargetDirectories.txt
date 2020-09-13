@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_4/3_unique_ptr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Coding/Coursera/brown_band/Week_4/3_unique_ptr/cmake-build-debug/CMakeFiles/3_unique_ptr.dir
+D:/Coding/Coursera/brown_band/Week_4/3_unique_ptr/cmake-build-debug/CMakeFiles/edit_cache.dir

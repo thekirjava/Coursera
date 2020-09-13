@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_3/8_pipeline/cmake-build-debug/CMakeFiles/8_pipeline.dir
+D:/Coding/Coursera/brown_band/Week_3/8_pipeline/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_3/8_pipeline/cmake-build-debug/CMakeFiles/rebuild_cache.dir

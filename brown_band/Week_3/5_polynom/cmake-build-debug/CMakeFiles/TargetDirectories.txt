@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_3/5_polynom/cmake-build-debug/CMakeFiles/5_polynom.dir
+D:/Coding/Coursera/brown_band/Week_3/5_polynom/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_3/5_polynom/cmake-build-debug/CMakeFiles/rebuild_cache.dir

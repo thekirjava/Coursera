@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_4/1_textures/cmake-build-debug/CMakeFiles/1_textures.dir
+D:/Coding/Coursera/brown_band/Week_4/1_textures/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_4/1_textures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

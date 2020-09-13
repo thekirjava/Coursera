@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_5/10_professional_budget_desktop/cmake-build-debug/CMakeFiles/10_professional_budget_desktop.dir
+D:/Coding/Coursera/brown_band/Week_5/10_professional_budget_desktop/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_5/10_professional_budget_desktop/cmake-build-debug/CMakeFiles/rebuild_cache.dir

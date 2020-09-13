@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/brown_band/Week_5/9_personal_budget_home_desktop/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+ctime
+-
+map
+-
+unordered_map
+-
+queue
+-
+

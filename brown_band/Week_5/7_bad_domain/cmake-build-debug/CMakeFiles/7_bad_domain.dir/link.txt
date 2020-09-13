@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\7_bad_domain.dir/objects.a
+C:\dev\mingw\mingw64\bin\ar.exe cr CMakeFiles\7_bad_domain.dir/objects.a @CMakeFiles\7_bad_domain.dir\objects1.rsp
+C:\dev\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\7_bad_domain.dir/objects.a -Wl,--no-whole-archive  -o 7_bad_domain.exe -Wl,--out-implib,lib7_bad_domain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\7_bad_domain.dir\linklibs.rsp

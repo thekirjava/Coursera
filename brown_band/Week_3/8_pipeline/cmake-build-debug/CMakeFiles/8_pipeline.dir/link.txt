@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\8_pipeline.dir/objects.a
+C:\dev\mingw\mingw64\bin\ar.exe cr CMakeFiles\8_pipeline.dir/objects.a @CMakeFiles\8_pipeline.dir\objects1.rsp
+C:\dev\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\8_pipeline.dir/objects.a -Wl,--no-whole-archive  -o 8_pipeline.exe -Wl,--out-implib,lib8_pipeline.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\8_pipeline.dir\linklibs.rsp
