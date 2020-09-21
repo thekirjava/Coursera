@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\12_personal_budget_mobile_legacy.dir/objects.a
+C:\dev\mingw\mingw64\bin\ar.exe cr CMakeFiles\12_personal_budget_mobile_legacy.dir/objects.a @CMakeFiles\12_personal_budget_mobile_legacy.dir\objects1.rsp
+C:\dev\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\12_personal_budget_mobile_legacy.dir/objects.a -Wl,--no-whole-archive  -o 12_personal_budget_mobile_legacy.exe -Wl,--out-implib,lib12_personal_budget_mobile_legacy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\12_personal_budget_mobile_legacy.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+D:/Coding/Coursera/brown_band/Week_5/12_personal_budget_mobile_legacy/cmake-build-debug/CMakeFiles/12_personal_budget_mobile_legacy.dir
+D:/Coding/Coursera/brown_band/Week_5/12_personal_budget_mobile_legacy/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/brown_band/Week_5/12_personal_budget_mobile_legacy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
