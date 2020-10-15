@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="4_yellow_pages"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_yellow_pages">
+				<Option output="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/4_yellow_pages.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/dev/protobuf/include"/>
+					<Add directory="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_yellow_pages"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_yellow_pages/fast">
+				<Option output="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/4_yellow_pages.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/dev/protobuf/include"/>
+					<Add directory="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_yellow_pages/fast"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/address.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/address.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/address.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/company.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/company.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/company.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/name.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/name.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/name.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/phone.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/phone.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/phone.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/provider.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/provider.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/provider.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/signal.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/signal.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/signal.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/url.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/url.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/url.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/working_time.pb.cc">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/working_time.pb.h">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/working_time.pb.h.rule">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/merge.cpp">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/test.cpp">
+			<Option target="4_yellow_pages"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

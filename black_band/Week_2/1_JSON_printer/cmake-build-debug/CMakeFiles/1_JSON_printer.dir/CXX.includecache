@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/black_band/Week_2/1_JSON_printer/main.cpp
+test_runner.h
+D:/Coding/Coursera/black_band/Week_2/1_JSON_printer/test_runner.h
+cassert
+-
+cmath
+-
+stdexcept
+-
+sstream
+-
+stack
+-
+string
+-
+
+D:/Coding/Coursera/black_band/Week_2/1_JSON_printer/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+

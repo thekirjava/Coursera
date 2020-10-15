@@ -1,0 +1,22 @@
+16
+Bus Looped_Single_Intrastop_Distance: A > B > C > A
+Stop A: 55.574371, 37.6517, 100m to B
+Stop B: 55.581065, 37.64839, 200m to C
+Stop C: 55.587655, 37.645687, 300m to A
+Bus Looped_Double_Intrastop_Distance: D > E > F > D
+Stop D: 55.574371, 37.6517, 100m to E, 400m to F
+Stop E: 55.581065, 37.64839, 200m to F, 500m to D
+Stop F: 55.587655, 37.645687, 300m to D, 600m to E
+Bus Straight_Single_Intrastop_Distance: G - H - I
+Stop G: 55.574371, 37.6517, 100m to H
+Stop H: 55.581065, 37.64839, 200m to I
+Stop I: 55.587655, 37.645687, 300m to H
+Bus Straight_Double_Intrastop_Distance: J - K - L
+Stop J: 55.574371, 37.6517, 100m to K, 400m to L
+Stop K: 55.581065, 37.64839, 200m to L, 500m to J
+Stop L: 55.587655, 37.645687, 300m to J, 600m to K
+4
+Bus Looped_Single_Intrastop_Distance
+Bus Looped_Double_Intrastop_Distance
+Bus Straight_Single_Intrastop_Distance
+Bus Straight_Double_Intrastop_Distance

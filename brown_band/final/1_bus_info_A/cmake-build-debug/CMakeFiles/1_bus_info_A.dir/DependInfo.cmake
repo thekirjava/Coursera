@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Coding/Coursera/brown_band/final/1_bus_info_A/database.cpp" "D:/Coding/Coursera/brown_band/final/1_bus_info_A/cmake-build-debug/CMakeFiles/1_bus_info_A.dir/database.cpp.obj"
   "D:/Coding/Coursera/brown_band/final/1_bus_info_A/main.cpp" "D:/Coding/Coursera/brown_band/final/1_bus_info_A/cmake-build-debug/CMakeFiles/1_bus_info_A.dir/main.cpp.obj"
   "D:/Coding/Coursera/brown_band/final/1_bus_info_A/manager.cpp" "D:/Coding/Coursera/brown_band/final/1_bus_info_A/cmake-build-debug/CMakeFiles/1_bus_info_A.dir/manager.cpp.obj"
+  "D:/Coding/Coursera/brown_band/final/1_bus_info_A/request.cpp" "D:/Coding/Coursera/brown_band/final/1_bus_info_A/cmake-build-debug/CMakeFiles/1_bus_info_A.dir/request.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

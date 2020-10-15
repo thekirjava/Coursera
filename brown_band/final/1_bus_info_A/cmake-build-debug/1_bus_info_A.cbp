@@ -101,6 +101,12 @@
 		<Unit filename="D:/Coding/Coursera/brown_band/final/1_bus_info_A/manager.h">
 			<Option target="1_bus_info_A"/>
 		</Unit>
+		<Unit filename="D:/Coding/Coursera/brown_band/final/1_bus_info_A/request.cpp">
+			<Option target="1_bus_info_A"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/brown_band/final/1_bus_info_A/request.h">
+			<Option target="1_bus_info_A"/>
+		</Unit>
 		<Unit filename="D:/Coding/Coursera/brown_band/final/1_bus_info_A/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

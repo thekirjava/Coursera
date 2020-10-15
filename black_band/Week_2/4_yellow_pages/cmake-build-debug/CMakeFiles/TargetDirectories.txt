@@ -1,0 +1,3 @@
+D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/CMakeFiles/4_yellow_pages.dir
+D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/black_band/Week_2/4_yellow_pages/cmake-build-debug/CMakeFiles/rebuild_cache.dir

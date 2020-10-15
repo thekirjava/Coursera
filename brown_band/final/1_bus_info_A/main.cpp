@@ -1,6 +1,12 @@
 #include <iostream>
+#include "manager.h"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Database database;
+    BusManager busManager(database);
+    std::cout.precision(6);
+    auto ans = busManager.ProcessAll();
+    PrintResults(ans);
     return 0;
 }

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/black_band/Week_1/2_personal_budget_asan/main.cpp
+algorithm
+-
+cmath
+-
+cstdint
+-
+ctime
+-
+exception
+-
+iostream
+-
+iterator
+-
+memory
+-
+optional
+-
+sstream
+-
+string
+-
+system_error
+-
+type_traits
+-
+unordered_map
+-
+vector
+-
+

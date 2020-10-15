@@ -27,8 +27,8 @@ public:
         LINEAR, CYCLE
     };
 
-    explicit Route(std::string name, std::vector<std::string> stop_names) : name(std::move(name)),
-                                                                            stop_names(std::move(stop_names)) {}
+    explicit Route(const std::string &name, const std::vector<std::string>& stop_names) : name(name),
+                                                                            stop_names(stop_names) {}
 
     virtual int StopsCount() const = 0;
 
@@ -43,9 +43,9 @@ private:
 
 class LinearRoute : public Route {
 public:
-    explicit LinearRoute(std::string name, std::vector<std::string> stop_names,
-                         std::vector<std::shared_ptr<Stop> > stops) : Route(std::move(name), std::move(stop_names)),
-                                                                      stops(std::move(stops)) {
+    explicit LinearRoute(const std::string &name, const std::vector<std::string> &stop_names,
+                         const std::vector<std::shared_ptr<Stop> > &stops) : Route(name, stop_names),
+                                                                      stops(stops) {
         for (const auto &s:stop_names) {
             unique.insert(s);
         }
@@ -64,9 +64,9 @@ private:
 
 class CycleRoute : public Route {
 public:
-    explicit CycleRoute(std::string name, std::vector<std::string> stop_names,
-                        std::vector<std::shared_ptr<Stop> > stops) : Route(std::move(name), std::move(stop_names)),
-                                                                     stops(std::move(stops)) {
+    explicit CycleRoute(const std::string &name, const std::vector<std::string> &stop_names,
+                        const std::vector<std::shared_ptr<Stop> > &stops) : Route(name, stop_names),
+                                                                     stops(stops) {
         for (const auto &s:stop_names) {
             unique.insert(s);
         }
@@ -88,7 +88,7 @@ public:
     Database() = default;
     void AddStop(const Stop& stop);
     void AddRoute(const std::string& name, std::shared_ptr<Route> route);
-    std::shared_ptr<Stop> GetStop(const std::string& name) const;
+    std::shared_ptr<Stop> GetStop(const std::string& name);
     std::shared_ptr<Route> GetRoute(const std::string& name) const;
 private:
     std::unordered_map<std::string, std::shared_ptr<Stop>> stops;

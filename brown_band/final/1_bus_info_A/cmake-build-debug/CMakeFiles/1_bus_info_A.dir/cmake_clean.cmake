@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/1_bus_info_A.dir/database.cpp.obj"
   "CMakeFiles/1_bus_info_A.dir/main.cpp.obj"
   "CMakeFiles/1_bus_info_A.dir/manager.cpp.obj"
+  "CMakeFiles/1_bus_info_A.dir/request.cpp.obj"
   "lib1_bus_info_A.dll.a"
 )
 

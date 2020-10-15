@@ -250,6 +250,33 @@ manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_bus_info_A.dir\build.make CMakeFiles/1_bus_info_A.dir/manager.cpp.s
 .PHONY : manager.cpp.s
 
+request.obj: request.cpp.obj
+
+.PHONY : request.obj
+
+# target to build an object file
+request.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_bus_info_A.dir\build.make CMakeFiles/1_bus_info_A.dir/request.cpp.obj
+.PHONY : request.cpp.obj
+
+request.i: request.cpp.i
+
+.PHONY : request.i
+
+# target to preprocess a source file
+request.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_bus_info_A.dir\build.make CMakeFiles/1_bus_info_A.dir/request.cpp.i
+.PHONY : request.cpp.i
+
+request.s: request.cpp.s
+
+.PHONY : request.s
+
+# target to generate assembly for a file
+request.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_bus_info_A.dir\build.make CMakeFiles/1_bus_info_A.dir/request.cpp.s
+.PHONY : request.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,6 +298,9 @@ help:
 	@echo ... manager.obj
 	@echo ... manager.i
 	@echo ... manager.s
+	@echo ... request.obj
+	@echo ... request.i
+	@echo ... request.s
 .PHONY : help
 
 

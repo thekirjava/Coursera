@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+74c8e4456b0d570ec013ddd8371c2083 contact.pb.h

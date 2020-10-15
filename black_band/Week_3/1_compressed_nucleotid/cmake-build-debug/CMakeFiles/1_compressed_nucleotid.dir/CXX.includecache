@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/black_band/Week_3/1_compressed_nucleotid/main.cpp
+iostream
+-
+cstddef
+-
+test_runner.h
+D:/Coding/Coursera/black_band/Week_3/1_compressed_nucleotid/test_runner.h
+
+D:/Coding/Coursera/black_band/Week_3/1_compressed_nucleotid/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+

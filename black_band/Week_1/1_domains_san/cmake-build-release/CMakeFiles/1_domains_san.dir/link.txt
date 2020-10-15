@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\1_domains_san.dir/objects.a
+C:\dev\mingw\mingw64\bin\ar.exe cr CMakeFiles\1_domains_san.dir/objects.a @CMakeFiles\1_domains_san.dir\objects1.rsp
+C:\dev\mingw\mingw64\bin\g++.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\1_domains_san.dir/objects.a -Wl,--no-whole-archive  -o 1_domains_san.exe -Wl,--out-implib,lib1_domains_san.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1_domains_san.dir\linklibs.rsp

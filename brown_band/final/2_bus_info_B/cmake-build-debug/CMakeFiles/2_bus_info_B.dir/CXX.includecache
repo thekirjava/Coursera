@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/coordinates.h
+
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/database.h
+coordinates.h
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/coordinates.h
+string
+-
+utility
+-
+vector
+-
+unordered_set
+-
+unordered_map
+-
+memory
+-
+set
+-
+
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/request.cpp
+request.h
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/request.h
+
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/request.h
+memory
+-
+sstream
+-
+iomanip
+-
+database.h
+D:/Coding/Coursera/brown_band/final/2_bus_info_B/database.h
+
