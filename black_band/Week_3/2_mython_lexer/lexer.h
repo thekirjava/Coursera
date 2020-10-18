@@ -115,28 +115,58 @@ namespace Parse {
 
     class Lexer {
     public:
-        explicit Lexer(std::istream& input);
+        explicit Lexer(std::istream& input) : in(input) {
+            current_indent = 0;
+            isNewLine = true;
+            if (in.peek()!=-1) {
+                firstNewLine = true;
+            } else {
+                firstNewLine = false;
+            }
+            char c = in.get();
+            while (c=='\n') {
+                c = in.get();
+            }
+            in.putback(c);
+            NextToken();
+        }
 
         const Token& CurrentToken() const;
         Token NextToken();
 
         template <typename T>
         const T& Expect() const {
+            if (!token.Is<T>()) {
+                throw LexerError("Not expected");
+            }
+            return token.As<T>();
         }
 
         template <typename T, typename U>
         void Expect(const U& value) const {
+            if ((!token.Is<T>()) || (token.As<T>().value!=value)) {
+                throw LexerError("Not expected");
+            }
         }
 
         template <typename T>
         const T& ExpectNext() {
+            NextToken();
+            return Expect<T>();
         }
 
         template <typename T, typename U>
         void ExpectNext(const U& value) {
+            NextToken();
+            Expect<T>(value);
         }
 
     private:
+        std::istream& in;
+        Token token;
+        size_t current_indent;
+        bool isNewLine;
+        bool firstNewLine;
     };
 
     void RunLexerTests(TestRunner& test_runner);
