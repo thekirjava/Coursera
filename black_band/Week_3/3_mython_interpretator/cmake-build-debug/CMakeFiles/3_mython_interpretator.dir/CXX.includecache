@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/object.h
+object_holder.h
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/object_holder.h
+ostream
+-
+string
+-
+vector
+-
+memory
+-
+unordered_map
+-
+
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/object_holder.cpp
+object_holder.h
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/object_holder.h
+object.h
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/object.h
+
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/object_holder.h
+memory
+-
+unordered_map
+-
+

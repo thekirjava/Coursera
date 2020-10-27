@@ -1,0 +1,3 @@
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/cmake-build-debug/CMakeFiles/3_mython_interpretator.dir
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Coursera/black_band/Week_3/3_mython_interpretator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

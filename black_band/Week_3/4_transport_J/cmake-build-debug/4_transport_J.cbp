@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="4_transport_J"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_transport_J">
+				<Option output="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/4_transport_J.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_transport_J"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_transport_J/fast">
+				<Option output="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/4_transport_J.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/dev/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_transport_J/fast"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Coding/Coursera/black_band/Week_3/4_transport_J/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/coordinates.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/coordinates.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/database.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/database.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/graph.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/json.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/json.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/linker.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/main.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/manager.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/manager.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/map.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/map.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/request.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/request.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/route.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/route.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/router.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/svg.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/svg.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
