@@ -142,59 +142,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/build
 .PHONY : 4_transport_J/fast
 
-coordinates.obj: coordinates.cpp.obj
+descriptions.obj: descriptions.cpp.obj
 
-.PHONY : coordinates.obj
-
-# target to build an object file
-coordinates.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/coordinates.cpp.obj
-.PHONY : coordinates.cpp.obj
-
-coordinates.i: coordinates.cpp.i
-
-.PHONY : coordinates.i
-
-# target to preprocess a source file
-coordinates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/coordinates.cpp.i
-.PHONY : coordinates.cpp.i
-
-coordinates.s: coordinates.cpp.s
-
-.PHONY : coordinates.s
-
-# target to generate assembly for a file
-coordinates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/coordinates.cpp.s
-.PHONY : coordinates.cpp.s
-
-database.obj: database.cpp.obj
-
-.PHONY : database.obj
+.PHONY : descriptions.obj
 
 # target to build an object file
-database.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/database.cpp.obj
-.PHONY : database.cpp.obj
+descriptions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/descriptions.cpp.obj
+.PHONY : descriptions.cpp.obj
 
-database.i: database.cpp.i
+descriptions.i: descriptions.cpp.i
 
-.PHONY : database.i
+.PHONY : descriptions.i
 
 # target to preprocess a source file
-database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/database.cpp.i
-.PHONY : database.cpp.i
+descriptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/descriptions.cpp.i
+.PHONY : descriptions.cpp.i
 
-database.s: database.cpp.s
+descriptions.s: descriptions.cpp.s
 
-.PHONY : database.s
+.PHONY : descriptions.s
 
 # target to generate assembly for a file
-database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/database.cpp.s
-.PHONY : database.cpp.s
+descriptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/descriptions.cpp.s
+.PHONY : descriptions.cpp.s
 
 json.obj: json.cpp.obj
 
@@ -250,113 +223,113 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-manager.obj: manager.cpp.obj
+map_renderer.obj: map_renderer.cpp.obj
 
-.PHONY : manager.obj
-
-# target to build an object file
-manager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/manager.cpp.obj
-.PHONY : manager.cpp.obj
-
-manager.i: manager.cpp.i
-
-.PHONY : manager.i
-
-# target to preprocess a source file
-manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/manager.cpp.i
-.PHONY : manager.cpp.i
-
-manager.s: manager.cpp.s
-
-.PHONY : manager.s
-
-# target to generate assembly for a file
-manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/manager.cpp.s
-.PHONY : manager.cpp.s
-
-map.obj: map.cpp.obj
-
-.PHONY : map.obj
+.PHONY : map_renderer.obj
 
 # target to build an object file
-map.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/map.cpp.obj
-.PHONY : map.cpp.obj
+map_renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/map_renderer.cpp.obj
+.PHONY : map_renderer.cpp.obj
 
-map.i: map.cpp.i
+map_renderer.i: map_renderer.cpp.i
 
-.PHONY : map.i
+.PHONY : map_renderer.i
 
 # target to preprocess a source file
-map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/map.cpp.i
-.PHONY : map.cpp.i
+map_renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/map_renderer.cpp.i
+.PHONY : map_renderer.cpp.i
 
-map.s: map.cpp.s
+map_renderer.s: map_renderer.cpp.s
 
-.PHONY : map.s
+.PHONY : map_renderer.s
 
 # target to generate assembly for a file
-map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/map.cpp.s
-.PHONY : map.cpp.s
+map_renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/map_renderer.cpp.s
+.PHONY : map_renderer.cpp.s
 
-request.obj: request.cpp.obj
+requests.obj: requests.cpp.obj
 
-.PHONY : request.obj
+.PHONY : requests.obj
 
 # target to build an object file
-request.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/request.cpp.obj
-.PHONY : request.cpp.obj
+requests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/requests.cpp.obj
+.PHONY : requests.cpp.obj
 
-request.i: request.cpp.i
+requests.i: requests.cpp.i
 
-.PHONY : request.i
+.PHONY : requests.i
 
 # target to preprocess a source file
-request.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/request.cpp.i
-.PHONY : request.cpp.i
+requests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/requests.cpp.i
+.PHONY : requests.cpp.i
 
-request.s: request.cpp.s
+requests.s: requests.cpp.s
 
-.PHONY : request.s
+.PHONY : requests.s
 
 # target to generate assembly for a file
-request.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/request.cpp.s
-.PHONY : request.cpp.s
+requests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/requests.cpp.s
+.PHONY : requests.cpp.s
 
-route.obj: route.cpp.obj
+sphere.obj: sphere.cpp.obj
 
-.PHONY : route.obj
+.PHONY : sphere.obj
 
 # target to build an object file
-route.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/route.cpp.obj
-.PHONY : route.cpp.obj
+sphere.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/sphere.cpp.obj
+.PHONY : sphere.cpp.obj
 
-route.i: route.cpp.i
+sphere.i: sphere.cpp.i
 
-.PHONY : route.i
+.PHONY : sphere.i
 
 # target to preprocess a source file
-route.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/route.cpp.i
-.PHONY : route.cpp.i
+sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/sphere.cpp.i
+.PHONY : sphere.cpp.i
 
-route.s: route.cpp.s
+sphere.s: sphere.cpp.s
 
-.PHONY : route.s
+.PHONY : sphere.s
 
 # target to generate assembly for a file
-route.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/route.cpp.s
-.PHONY : route.cpp.s
+sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/sphere.cpp.s
+.PHONY : sphere.cpp.s
+
+sphere_projection.obj: sphere_projection.cpp.obj
+
+.PHONY : sphere_projection.obj
+
+# target to build an object file
+sphere_projection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/sphere_projection.cpp.obj
+.PHONY : sphere_projection.cpp.obj
+
+sphere_projection.i: sphere_projection.cpp.i
+
+.PHONY : sphere_projection.i
+
+# target to preprocess a source file
+sphere_projection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/sphere_projection.cpp.i
+.PHONY : sphere_projection.cpp.i
+
+sphere_projection.s: sphere_projection.cpp.s
+
+.PHONY : sphere_projection.s
+
+# target to generate assembly for a file
+sphere_projection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/sphere_projection.cpp.s
+.PHONY : sphere_projection.cpp.s
 
 svg.obj: svg.cpp.obj
 
@@ -385,6 +358,87 @@ svg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/svg.cpp.s
 .PHONY : svg.cpp.s
 
+transport_catalog.obj: transport_catalog.cpp.obj
+
+.PHONY : transport_catalog.obj
+
+# target to build an object file
+transport_catalog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/transport_catalog.cpp.obj
+.PHONY : transport_catalog.cpp.obj
+
+transport_catalog.i: transport_catalog.cpp.i
+
+.PHONY : transport_catalog.i
+
+# target to preprocess a source file
+transport_catalog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/transport_catalog.cpp.i
+.PHONY : transport_catalog.cpp.i
+
+transport_catalog.s: transport_catalog.cpp.s
+
+.PHONY : transport_catalog.s
+
+# target to generate assembly for a file
+transport_catalog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/transport_catalog.cpp.s
+.PHONY : transport_catalog.cpp.s
+
+transport_router.obj: transport_router.cpp.obj
+
+.PHONY : transport_router.obj
+
+# target to build an object file
+transport_router.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/transport_router.cpp.obj
+.PHONY : transport_router.cpp.obj
+
+transport_router.i: transport_router.cpp.i
+
+.PHONY : transport_router.i
+
+# target to preprocess a source file
+transport_router.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/transport_router.cpp.i
+.PHONY : transport_router.cpp.i
+
+transport_router.s: transport_router.cpp.s
+
+.PHONY : transport_router.s
+
+# target to generate assembly for a file
+transport_router.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/transport_router.cpp.s
+.PHONY : transport_router.cpp.s
+
+utils.obj: utils.cpp.obj
+
+.PHONY : utils.obj
+
+# target to build an object file
+utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/utils.cpp.obj
+.PHONY : utils.cpp.obj
+
+utils.i: utils.cpp.i
+
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/utils.cpp.i
+.PHONY : utils.cpp.i
+
+utils.s: utils.cpp.s
+
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_transport_J.dir\build.make CMakeFiles/4_transport_J.dir/utils.cpp.s
+.PHONY : utils.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -394,33 +448,39 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 4_transport_J
-	@echo ... coordinates.obj
-	@echo ... coordinates.i
-	@echo ... coordinates.s
-	@echo ... database.obj
-	@echo ... database.i
-	@echo ... database.s
+	@echo ... descriptions.obj
+	@echo ... descriptions.i
+	@echo ... descriptions.s
 	@echo ... json.obj
 	@echo ... json.i
 	@echo ... json.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... manager.obj
-	@echo ... manager.i
-	@echo ... manager.s
-	@echo ... map.obj
-	@echo ... map.i
-	@echo ... map.s
-	@echo ... request.obj
-	@echo ... request.i
-	@echo ... request.s
-	@echo ... route.obj
-	@echo ... route.i
-	@echo ... route.s
+	@echo ... map_renderer.obj
+	@echo ... map_renderer.i
+	@echo ... map_renderer.s
+	@echo ... requests.obj
+	@echo ... requests.i
+	@echo ... requests.s
+	@echo ... sphere.obj
+	@echo ... sphere.i
+	@echo ... sphere.s
+	@echo ... sphere_projection.obj
+	@echo ... sphere_projection.i
+	@echo ... sphere_projection.s
 	@echo ... svg.obj
 	@echo ... svg.i
 	@echo ... svg.s
+	@echo ... transport_catalog.obj
+	@echo ... transport_catalog.i
+	@echo ... transport_catalog.s
+	@echo ... transport_router.obj
+	@echo ... transport_router.i
+	@echo ... transport_router.s
+	@echo ... utils.obj
+	@echo ... utils.i
+	@echo ... utils.s
 .PHONY : help
 
 

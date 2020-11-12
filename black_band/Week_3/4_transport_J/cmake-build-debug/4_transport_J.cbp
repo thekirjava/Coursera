@@ -80,16 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/coordinates.cpp">
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/descriptions.cpp">
 			<Option target="4_transport_J"/>
 		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/coordinates.h">
-			<Option target="4_transport_J"/>
-		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/database.cpp">
-			<Option target="4_transport_J"/>
-		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/database.h">
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/descriptions.h">
 			<Option target="4_transport_J"/>
 		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/graph.h">
@@ -101,43 +95,58 @@
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/json.h">
 			<Option target="4_transport_J"/>
 		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/linker.h">
-			<Option target="4_transport_J"/>
-		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/main.cpp">
 			<Option target="4_transport_J"/>
 		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/manager.cpp">
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/map_renderer.cpp">
 			<Option target="4_transport_J"/>
 		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/manager.h">
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/map_renderer.h">
 			<Option target="4_transport_J"/>
 		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/map.cpp">
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/requests.cpp">
 			<Option target="4_transport_J"/>
 		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/map.h">
-			<Option target="4_transport_J"/>
-		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/request.cpp">
-			<Option target="4_transport_J"/>
-		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/request.h">
-			<Option target="4_transport_J"/>
-		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/route.cpp">
-			<Option target="4_transport_J"/>
-		</Unit>
-		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/route.h">
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/requests.h">
 			<Option target="4_transport_J"/>
 		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/router.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/sphere.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/sphere.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/sphere_projection.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/sphere_projection.h">
 			<Option target="4_transport_J"/>
 		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/svg.cpp">
 			<Option target="4_transport_J"/>
 		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/svg.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/transport_catalog.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/transport_catalog.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/transport_router.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/transport_router.h">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/utils.cpp">
+			<Option target="4_transport_J"/>
+		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/utils.h">
 			<Option target="4_transport_J"/>
 		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/4_transport_J/CMakeLists.txt">

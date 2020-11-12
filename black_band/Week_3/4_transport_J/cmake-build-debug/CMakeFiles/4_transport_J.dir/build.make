@@ -89,35 +89,22 @@ CMakeFiles/4_transport_J.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/main.cpp.s"
 	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\main.cpp -o CMakeFiles\4_transport_J.dir\main.cpp.s
 
-CMakeFiles/4_transport_J.dir/coordinates.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
-CMakeFiles/4_transport_J.dir/coordinates.cpp.obj: ../coordinates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4_transport_J.dir/coordinates.cpp.obj"
-	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\coordinates.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\coordinates.cpp
+CMakeFiles/4_transport_J.dir/descriptions.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/descriptions.cpp.obj: ../descriptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4_transport_J.dir/descriptions.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\descriptions.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\descriptions.cpp
 
-CMakeFiles/4_transport_J.dir/coordinates.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/coordinates.cpp.i"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\coordinates.cpp > CMakeFiles\4_transport_J.dir\coordinates.cpp.i
+CMakeFiles/4_transport_J.dir/descriptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/descriptions.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\descriptions.cpp > CMakeFiles\4_transport_J.dir\descriptions.cpp.i
 
-CMakeFiles/4_transport_J.dir/coordinates.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/coordinates.cpp.s"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\coordinates.cpp -o CMakeFiles\4_transport_J.dir\coordinates.cpp.s
-
-CMakeFiles/4_transport_J.dir/database.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
-CMakeFiles/4_transport_J.dir/database.cpp.obj: ../database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4_transport_J.dir/database.cpp.obj"
-	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\database.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\database.cpp
-
-CMakeFiles/4_transport_J.dir/database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/database.cpp.i"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\database.cpp > CMakeFiles\4_transport_J.dir\database.cpp.i
-
-CMakeFiles/4_transport_J.dir/database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/database.cpp.s"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\database.cpp -o CMakeFiles\4_transport_J.dir\database.cpp.s
+CMakeFiles/4_transport_J.dir/descriptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/descriptions.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\descriptions.cpp -o CMakeFiles\4_transport_J.dir\descriptions.cpp.s
 
 CMakeFiles/4_transport_J.dir/json.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
 CMakeFiles/4_transport_J.dir/json.cpp.obj: ../json.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/4_transport_J.dir/json.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4_transport_J.dir/json.cpp.obj"
 	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\json.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\json.cpp
 
 CMakeFiles/4_transport_J.dir/json.cpp.i: cmake_force
@@ -128,61 +115,61 @@ CMakeFiles/4_transport_J.dir/json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/json.cpp.s"
 	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\json.cpp -o CMakeFiles\4_transport_J.dir\json.cpp.s
 
-CMakeFiles/4_transport_J.dir/manager.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
-CMakeFiles/4_transport_J.dir/manager.cpp.obj: ../manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/4_transport_J.dir/manager.cpp.obj"
-	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\manager.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\manager.cpp
+CMakeFiles/4_transport_J.dir/map_renderer.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/map_renderer.cpp.obj: ../map_renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/4_transport_J.dir/map_renderer.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\map_renderer.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\map_renderer.cpp
 
-CMakeFiles/4_transport_J.dir/manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/manager.cpp.i"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\manager.cpp > CMakeFiles\4_transport_J.dir\manager.cpp.i
+CMakeFiles/4_transport_J.dir/map_renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/map_renderer.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\map_renderer.cpp > CMakeFiles\4_transport_J.dir\map_renderer.cpp.i
 
-CMakeFiles/4_transport_J.dir/manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/manager.cpp.s"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\manager.cpp -o CMakeFiles\4_transport_J.dir\manager.cpp.s
+CMakeFiles/4_transport_J.dir/map_renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/map_renderer.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\map_renderer.cpp -o CMakeFiles\4_transport_J.dir\map_renderer.cpp.s
 
-CMakeFiles/4_transport_J.dir/map.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
-CMakeFiles/4_transport_J.dir/map.cpp.obj: ../map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/4_transport_J.dir/map.cpp.obj"
-	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\map.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\map.cpp
+CMakeFiles/4_transport_J.dir/requests.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/requests.cpp.obj: ../requests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/4_transport_J.dir/requests.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\requests.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\requests.cpp
 
-CMakeFiles/4_transport_J.dir/map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/map.cpp.i"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\map.cpp > CMakeFiles\4_transport_J.dir\map.cpp.i
+CMakeFiles/4_transport_J.dir/requests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/requests.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\requests.cpp > CMakeFiles\4_transport_J.dir\requests.cpp.i
 
-CMakeFiles/4_transport_J.dir/map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/map.cpp.s"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\map.cpp -o CMakeFiles\4_transport_J.dir\map.cpp.s
+CMakeFiles/4_transport_J.dir/requests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/requests.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\requests.cpp -o CMakeFiles\4_transport_J.dir\requests.cpp.s
 
-CMakeFiles/4_transport_J.dir/request.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
-CMakeFiles/4_transport_J.dir/request.cpp.obj: ../request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/4_transport_J.dir/request.cpp.obj"
-	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\request.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\request.cpp
+CMakeFiles/4_transport_J.dir/sphere.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/sphere.cpp.obj: ../sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/4_transport_J.dir/sphere.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\sphere.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\sphere.cpp
 
-CMakeFiles/4_transport_J.dir/request.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/request.cpp.i"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\request.cpp > CMakeFiles\4_transport_J.dir\request.cpp.i
+CMakeFiles/4_transport_J.dir/sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/sphere.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\sphere.cpp > CMakeFiles\4_transport_J.dir\sphere.cpp.i
 
-CMakeFiles/4_transport_J.dir/request.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/request.cpp.s"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\request.cpp -o CMakeFiles\4_transport_J.dir\request.cpp.s
+CMakeFiles/4_transport_J.dir/sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/sphere.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\sphere.cpp -o CMakeFiles\4_transport_J.dir\sphere.cpp.s
 
-CMakeFiles/4_transport_J.dir/route.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
-CMakeFiles/4_transport_J.dir/route.cpp.obj: ../route.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/4_transport_J.dir/route.cpp.obj"
-	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\route.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\route.cpp
+CMakeFiles/4_transport_J.dir/sphere_projection.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/sphere_projection.cpp.obj: ../sphere_projection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/4_transport_J.dir/sphere_projection.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\sphere_projection.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\sphere_projection.cpp
 
-CMakeFiles/4_transport_J.dir/route.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/route.cpp.i"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\route.cpp > CMakeFiles\4_transport_J.dir\route.cpp.i
+CMakeFiles/4_transport_J.dir/sphere_projection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/sphere_projection.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\sphere_projection.cpp > CMakeFiles\4_transport_J.dir\sphere_projection.cpp.i
 
-CMakeFiles/4_transport_J.dir/route.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/route.cpp.s"
-	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\route.cpp -o CMakeFiles\4_transport_J.dir\route.cpp.s
+CMakeFiles/4_transport_J.dir/sphere_projection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/sphere_projection.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\sphere_projection.cpp -o CMakeFiles\4_transport_J.dir\sphere_projection.cpp.s
 
 CMakeFiles/4_transport_J.dir/svg.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
 CMakeFiles/4_transport_J.dir/svg.cpp.obj: ../svg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/4_transport_J.dir/svg.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/4_transport_J.dir/svg.cpp.obj"
 	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\svg.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\svg.cpp
 
 CMakeFiles/4_transport_J.dir/svg.cpp.i: cmake_force
@@ -193,35 +180,78 @@ CMakeFiles/4_transport_J.dir/svg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/svg.cpp.s"
 	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\svg.cpp -o CMakeFiles\4_transport_J.dir\svg.cpp.s
 
+CMakeFiles/4_transport_J.dir/transport_catalog.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/transport_catalog.cpp.obj: ../transport_catalog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/4_transport_J.dir/transport_catalog.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\transport_catalog.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\transport_catalog.cpp
+
+CMakeFiles/4_transport_J.dir/transport_catalog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/transport_catalog.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\transport_catalog.cpp > CMakeFiles\4_transport_J.dir\transport_catalog.cpp.i
+
+CMakeFiles/4_transport_J.dir/transport_catalog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/transport_catalog.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\transport_catalog.cpp -o CMakeFiles\4_transport_J.dir\transport_catalog.cpp.s
+
+CMakeFiles/4_transport_J.dir/transport_router.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/transport_router.cpp.obj: ../transport_router.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/4_transport_J.dir/transport_router.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\transport_router.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\transport_router.cpp
+
+CMakeFiles/4_transport_J.dir/transport_router.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/transport_router.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\transport_router.cpp > CMakeFiles\4_transport_J.dir\transport_router.cpp.i
+
+CMakeFiles/4_transport_J.dir/transport_router.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/transport_router.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\transport_router.cpp -o CMakeFiles\4_transport_J.dir\transport_router.cpp.s
+
+CMakeFiles/4_transport_J.dir/utils.cpp.obj: CMakeFiles/4_transport_J.dir/flags.make
+CMakeFiles/4_transport_J.dir/utils.cpp.obj: ../utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/4_transport_J.dir/utils.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\4_transport_J.dir\utils.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\4_transport_J\utils.cpp
+
+CMakeFiles/4_transport_J.dir/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_transport_J.dir/utils.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\4_transport_J\utils.cpp > CMakeFiles\4_transport_J.dir\utils.cpp.i
+
+CMakeFiles/4_transport_J.dir/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_transport_J.dir/utils.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\4_transport_J\utils.cpp -o CMakeFiles\4_transport_J.dir\utils.cpp.s
+
 # Object files for target 4_transport_J
 4_transport_J_OBJECTS = \
 "CMakeFiles/4_transport_J.dir/main.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/coordinates.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/database.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/descriptions.cpp.obj" \
 "CMakeFiles/4_transport_J.dir/json.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/manager.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/map.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/request.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/route.cpp.obj" \
-"CMakeFiles/4_transport_J.dir/svg.cpp.obj"
+"CMakeFiles/4_transport_J.dir/map_renderer.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/requests.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/sphere.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/sphere_projection.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/svg.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/transport_catalog.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/transport_router.cpp.obj" \
+"CMakeFiles/4_transport_J.dir/utils.cpp.obj"
 
 # External object files for target 4_transport_J
 4_transport_J_EXTERNAL_OBJECTS =
 
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/main.cpp.obj
-4_transport_J.exe: CMakeFiles/4_transport_J.dir/coordinates.cpp.obj
-4_transport_J.exe: CMakeFiles/4_transport_J.dir/database.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/descriptions.cpp.obj
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/json.cpp.obj
-4_transport_J.exe: CMakeFiles/4_transport_J.dir/manager.cpp.obj
-4_transport_J.exe: CMakeFiles/4_transport_J.dir/map.cpp.obj
-4_transport_J.exe: CMakeFiles/4_transport_J.dir/request.cpp.obj
-4_transport_J.exe: CMakeFiles/4_transport_J.dir/route.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/map_renderer.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/requests.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/sphere.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/sphere_projection.cpp.obj
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/svg.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/transport_catalog.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/transport_router.cpp.obj
+4_transport_J.exe: CMakeFiles/4_transport_J.dir/utils.cpp.obj
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/build.make
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/linklibs.rsp
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/objects1.rsp
 4_transport_J.exe: CMakeFiles/4_transport_J.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable 4_transport_J.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Coding\Coursera\black_band\Week_3\4_transport_J\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable 4_transport_J.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\4_transport_J.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

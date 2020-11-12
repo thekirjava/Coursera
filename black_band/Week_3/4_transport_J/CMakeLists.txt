@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
 project(4_transport_J)
 
-set(CMAKE_CXX_STANDARD 20)
-add_executable(4_transport_J main.cpp coordinates.h coordinates.cpp database.h database.cpp graph.h json.h json.cpp linker.h manager.h manager.cpp map.h map.cpp request.h request.cpp router.h route.cpp svg.cpp svg.h)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(4_transport_J main.cpp descriptions.h descriptions.cpp graph.h json.h json.cpp map_renderer.h map_renderer.cpp requests.h requests.cpp router.h sphere.h sphere.cpp sphere_projection.h sphere_projection.cpp svg.h svg.cpp transport_catalog.h transport_catalog.cpp transport_router.h transport_router.cpp utils.h utils.cpp)
