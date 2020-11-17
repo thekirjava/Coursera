@@ -13,7 +13,7 @@ using namespace std;
 int main() {
     ifstream in ("input.json");
     ofstream out ("output.json");
-    const auto input_doc = Json::Load(in);
+    const auto input_doc = Json::Load(cin);
     const auto &input_map = input_doc.GetRoot().AsMap();
 
     const TransportCatalog db(
@@ -24,7 +24,7 @@ int main() {
 
     Json::PrintValue(
             Requests::ProcessAll(db, input_map.at("stat_requests").AsArray()),
-            out
+            cout
     );
     cout << endl;
 
