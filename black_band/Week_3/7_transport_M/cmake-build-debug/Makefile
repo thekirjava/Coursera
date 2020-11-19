@@ -358,6 +358,33 @@ svg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_transport_M.dir\build.make CMakeFiles/7_transport_M.dir/svg.cpp.s
 .PHONY : svg.cpp.s
 
+transport_catalog.obj: transport_catalog.cpp.obj
+
+.PHONY : transport_catalog.obj
+
+# target to build an object file
+transport_catalog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_transport_M.dir\build.make CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj
+.PHONY : transport_catalog.cpp.obj
+
+transport_catalog.i: transport_catalog.cpp.i
+
+.PHONY : transport_catalog.i
+
+# target to preprocess a source file
+transport_catalog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_transport_M.dir\build.make CMakeFiles/7_transport_M.dir/transport_catalog.cpp.i
+.PHONY : transport_catalog.cpp.i
+
+transport_catalog.s: transport_catalog.cpp.s
+
+.PHONY : transport_catalog.s
+
+# target to generate assembly for a file
+transport_catalog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_transport_M.dir\build.make CMakeFiles/7_transport_M.dir/transport_catalog.cpp.s
+.PHONY : transport_catalog.cpp.s
+
 transport_router.obj: transport_router.cpp.obj
 
 .PHONY : transport_router.obj
@@ -445,6 +472,9 @@ help:
 	@echo ... svg.obj
 	@echo ... svg.i
 	@echo ... svg.s
+	@echo ... transport_catalog.obj
+	@echo ... transport_catalog.i
+	@echo ... transport_catalog.s
 	@echo ... transport_router.obj
 	@echo ... transport_router.i
 	@echo ... transport_router.s

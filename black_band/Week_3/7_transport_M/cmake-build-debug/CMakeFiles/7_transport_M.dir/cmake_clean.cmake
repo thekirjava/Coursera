@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/7_transport_M.dir/sphere.cpp.obj"
   "CMakeFiles/7_transport_M.dir/sphere_projection.cpp.obj"
   "CMakeFiles/7_transport_M.dir/svg.cpp.obj"
+  "CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj"
   "CMakeFiles/7_transport_M.dir/transport_router.cpp.obj"
   "CMakeFiles/7_transport_M.dir/utils.cpp.obj"
   "lib7_transport_M.dll.a"

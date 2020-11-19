@@ -167,9 +167,22 @@ CMakeFiles/7_transport_M.dir/svg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_transport_M.dir/svg.cpp.s"
 	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\7_transport_M\svg.cpp -o CMakeFiles\7_transport_M.dir\svg.cpp.s
 
+CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj: CMakeFiles/7_transport_M.dir/flags.make
+CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj: ../transport_catalog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj"
+	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_transport_M.dir\transport_catalog.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\7_transport_M\transport_catalog.cpp
+
+CMakeFiles/7_transport_M.dir/transport_catalog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7_transport_M.dir/transport_catalog.cpp.i"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\Coursera\black_band\Week_3\7_transport_M\transport_catalog.cpp > CMakeFiles\7_transport_M.dir\transport_catalog.cpp.i
+
+CMakeFiles/7_transport_M.dir/transport_catalog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_transport_M.dir/transport_catalog.cpp.s"
+	C:\dev\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\Coursera\black_band\Week_3\7_transport_M\transport_catalog.cpp -o CMakeFiles\7_transport_M.dir\transport_catalog.cpp.s
+
 CMakeFiles/7_transport_M.dir/transport_router.cpp.obj: CMakeFiles/7_transport_M.dir/flags.make
 CMakeFiles/7_transport_M.dir/transport_router.cpp.obj: ../transport_router.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/7_transport_M.dir/transport_router.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/7_transport_M.dir/transport_router.cpp.obj"
 	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_transport_M.dir\transport_router.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\7_transport_M\transport_router.cpp
 
 CMakeFiles/7_transport_M.dir/transport_router.cpp.i: cmake_force
@@ -182,7 +195,7 @@ CMakeFiles/7_transport_M.dir/transport_router.cpp.s: cmake_force
 
 CMakeFiles/7_transport_M.dir/utils.cpp.obj: CMakeFiles/7_transport_M.dir/flags.make
 CMakeFiles/7_transport_M.dir/utils.cpp.obj: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/7_transport_M.dir/utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/7_transport_M.dir/utils.cpp.obj"
 	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_transport_M.dir\utils.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\7_transport_M\utils.cpp
 
 CMakeFiles/7_transport_M.dir/utils.cpp.i: cmake_force
@@ -195,7 +208,7 @@ CMakeFiles/7_transport_M.dir/utils.cpp.s: cmake_force
 
 CMakeFiles/7_transport_M.dir/main.cpp.obj: CMakeFiles/7_transport_M.dir/flags.make
 CMakeFiles/7_transport_M.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/7_transport_M.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/7_transport_M.dir/main.cpp.obj"
 	C:\dev\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\7_transport_M.dir\main.cpp.obj -c D:\Coding\Coursera\black_band\Week_3\7_transport_M\main.cpp
 
 CMakeFiles/7_transport_M.dir/main.cpp.i: cmake_force
@@ -215,6 +228,7 @@ CMakeFiles/7_transport_M.dir/main.cpp.s: cmake_force
 "CMakeFiles/7_transport_M.dir/sphere.cpp.obj" \
 "CMakeFiles/7_transport_M.dir/sphere_projection.cpp.obj" \
 "CMakeFiles/7_transport_M.dir/svg.cpp.obj" \
+"CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj" \
 "CMakeFiles/7_transport_M.dir/transport_router.cpp.obj" \
 "CMakeFiles/7_transport_M.dir/utils.cpp.obj" \
 "CMakeFiles/7_transport_M.dir/main.cpp.obj"
@@ -229,6 +243,7 @@ CMakeFiles/7_transport_M.dir/main.cpp.s: cmake_force
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/sphere.cpp.obj
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/sphere_projection.cpp.obj
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/svg.cpp.obj
+7_transport_M.exe: CMakeFiles/7_transport_M.dir/transport_catalog.cpp.obj
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/transport_router.cpp.obj
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/utils.cpp.obj
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/main.cpp.obj
@@ -236,7 +251,7 @@ CMakeFiles/7_transport_M.dir/main.cpp.s: cmake_force
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/linklibs.rsp
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/objects1.rsp
 7_transport_M.exe: CMakeFiles/7_transport_M.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable 7_transport_M.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Coding\Coursera\black_band\Week_3\7_transport_M\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable 7_transport_M.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\7_transport_M.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

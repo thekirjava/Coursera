@@ -131,6 +131,9 @@
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/7_transport_M/svg.h">
 			<Option target="7_transport_M"/>
 		</Unit>
+		<Unit filename="D:/Coding/Coursera/black_band/Week_3/7_transport_M/transport_catalog.cpp">
+			<Option target="7_transport_M"/>
+		</Unit>
 		<Unit filename="D:/Coding/Coursera/black_band/Week_3/7_transport_M/transport_catalog.h">
 			<Option target="7_transport_M"/>
 		</Unit>

@@ -50,38 +50,36 @@ namespace Sphere {
                 const Descriptions::Stop &rhs) { return lhs.position.longitude < rhs.position.longitude; });
         size_t max_idx = 0;
         for (int i = 0; i < stops.size(); i++) {
-            bool neighbor = false;
-            for (int j = i - 1; j >= 0 && (long_idx[stops[j].position.longitude] == max_idx); j--) {
-                neighbor = neighbor || isNeighbors(stops[i], stops[j], buses);
+            size_t cur_idx = 0;
+            for (int j = 0; j < i; j++) {
+                if ((long_idx[stops[j].position.longitude] + 1 > cur_idx) && (isNeighbors(stops[i], stops[j], buses))) {
+                    cur_idx = long_idx[stops[j].position.longitude] + 1;
+                }
             }
-            if (neighbor) {
-                max_idx++;
-            }
-            long_idx[stops[i].position.longitude] = max_idx;
-            ferr << stops[i].name << " " << max_idx << '\n';
+            long_idx[stops[i].position.longitude] = cur_idx;
+            ferr << stops[i].name << " " << cur_idx << '\n';
+            max_idx = std::max(max_idx, cur_idx);
         }
-
         if (max_idx != 0) {
             x_step = (max_width - 2 * padding_) / max_idx;
         } else {
             x_step = 0;
         }
-
         std::sort(begin(stops), end(stops),
                   [](const Descriptions::Stop &lhs, const Descriptions::Stop &rhs) {
                       return lhs.position.latitude < rhs.position.latitude;
                   });
         max_idx = 0;
         for (int i = 0; i < stops.size(); i++) {
-            bool neighbor = false;
-            for (int j = i - 1; j >= 0 && (lat_idx[stops[j].position.latitude] == max_idx); j--) {
-                neighbor = neighbor || isNeighbors(stops[i], stops[j], buses);
+            size_t cur_idx = 0;
+            for (int j = 0; j < i; j++) {
+                if ((lat_idx[stops[j].position.latitude] + 1 > cur_idx) && (isNeighbors(stops[i], stops[j], buses))) {
+                    cur_idx = lat_idx[stops[j].position.latitude] + 1;
+                }
             }
-            if (neighbor) {
-                max_idx++;
-            }
-            lat_idx[stops[i].position.latitude] = max_idx;
-            ferr << stops[i].name << " " << max_idx << '\n';
+            lat_idx[stops[i].position.latitude] = cur_idx;
+            ferr << stops[i].name << " " << cur_idx << '\n';
+            max_idx = std::max(max_idx, cur_idx);
         }
         if (max_idx != 0) {
             y_step = (max_height - 2 * padding_) / max_idx;
